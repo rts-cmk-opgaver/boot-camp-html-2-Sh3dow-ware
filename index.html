@@ -12,34 +12,37 @@
 
     <header>
         <div>
-            <i class="fa-solid fa-bars">MENU</i>
+            <p><i class="fa-solid fa-bars"></i>MENU</p>
             <i class="fa-solid fa-magnifying-glass"></i>
             <img src="https://placehold.co/450x80" alt="placeholder">
-            <i class="fa-solid fa-user" >LOG IND</i>
+            <p>LOG IND<i class="fa-solid fa-user"></i></p>
         </div>
-        <nav>
-            <ul>
-                <li><a href="http://github.com">Nyhedsbreve</a></li>
-                <li><a href="http://github.com">Podcast</a></li>
-                <li><a href="http://github.com">Køb abonnement</a></li>
+        <nav class="menu">
+            <ul class="menu__list">
+                <li class="menu__item"><a href="http://github.com">Nyhedsbreve</a></li>
+                <li class="menu__item"><a href="http://github.com">Podcast</a></li>
+                <li class="menu__item"><a href="http://github.com">Køb abonnement</a></li>
             </ul>
         </nav>
     </header>
 
-    <main>
+    <div id="wrapper">
         <div>
             <img src="https://placehold.co/450x80" alt="placeholder">
         </div>
 
 
-        <p><span>Abonnement</span> Læsetid: 7MIN.</p>
 
-        <section>
-            <h1>Gas er et godt politisk våben. Det er bare ikke Putin, der bruger det.</h1>
-            <p>Nogle EU lande frygter, at Rusland kan bruge Nord Stream 2 som politisk våben mod Europa. Men i
-                virkeligheden er det omvendt, firmaerne bag rørledningen: Det er EU, der bruger gassen som våben over
-                for Putin. Information har været på charmetur med den russiske gas' europæiske venner.</p>
-            <img src="https://placehold.co/680x450" alt="placeholder">
+        <main>
+            <article>
+                <p><span class="red">Abonnement</span> Læsetid: 7MIN.</p>
+                <h1>Gas er et godt politisk våben. Det er bare ikke Putin, der bruger det.</h1>
+                <p>Nogle EU lande frygter, at Rusland kan bruge Nord Stream 2 som politisk våben mod Europa. Men i
+                    virkeligheden er det omvendt, firmaerne bag rørledningen: Det er EU, der bruger gassen som våben
+                    over
+                    for Putin. Information har været på charmetur med den russiske gas' europæiske venner.</p>
+                <img src="https://placehold.co/680x450" alt="placeholder">
+            </article>
             <aside>
                 <p>Rusland vil ikke bruge gasrørledningen,
                     Nord Stream 2, som politisk våben, lyder
@@ -47,25 +50,42 @@
                     Rørledningen koster 70 mia. kr. og vil
                     sende 55 mia. kubikmeter gas ind i Europa
                     om aret.</p>
-                    <address><i class="fa-solid fa-camera"></i> <a rel="author" href="">Peter Nygaard Christensen</a></address>
+                <address><i class="fa-solid fa-camera"></i>
+                    <p class="author" rel="author">Peter Nygaard Christensen</p>
+                </address>
             </aside>
-        </section>
+            <div class="textfield">
+                <p class="textfield__red">Udland</p>
+                <p class="textfield__font"><i class="fa-regular fa-clock"></i>7. maj 2018</p>
+                <p class="textfield__font"><i class="fa-solid fa-comments"></i>Kommentar(2)</p>
+            </div>
+        </main>
+
+        <div class="interview">
+            <p>»Jeg tænker, at vi lige taler os varme sammen,
+                før vi begynder på interviewet,« siger Jens
+                Müller, talsperson for det russiske gasfirma
+                Nord Stream 2 AG. Vi sidder en gruppe
+                journalister i en bus på vej til en gasterminal i
+                Rotterdam, inviteret af folkene bag den
+                kommende russiske gasrørledning, Nord Stream 2 (NS2), der efter planen skal krydse
+                dansk farvand.</p>
+
+            <div class="interview__somebuttons">
+                <button class="somebuttons__btn"><i class="fa-brands fa-square-facebook"></i> Del</button>
+                <button class="somebuttons__btn"><i class="fa-brands fa-twitter"></i> Tweet</button>
+                <button class="somebuttons__btn"><i class="fa-solid fa-at"></i> Email</button>
+            </div>
 
 
-
-        <div>
-            <header>
-            <p>Udland</p>
-            <p>7. maj 2018</p>
-            <p>Kommentar</p>
-            </header>
-            <aside>
-            <img src="placehold.co/25x25" alt="placeholder">
-            
-            </aside>
+            <p>På bussens bagsæde udvikler den 'uformelle dialog' sig hurtigt til et 20 minutters forsvar
+                for den 12.000 kilometer lange rørledning der sidste år blev viklet ind i det stadigt mere
+            </p>
         </div>
 
 
-    </main>
+    </div>
+
 </body>
+
 </html>
